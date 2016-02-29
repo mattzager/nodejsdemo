@@ -1,0 +1,26 @@
+{
+  "name": "nodejsdemo",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "dependencies": {
+      "express": "*"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mattzager/nodejsdemo.git"
+  },
+  "author": "Matt Zager <mzager@redhat.com>",
+  "license": "",
+  "bugs": {
+    "url": "http://github.com/mattzager/nodejsdemo/issues"
+  },
+  "homepage": "http://github.com/mattzager/nodejsdemo"
+}
